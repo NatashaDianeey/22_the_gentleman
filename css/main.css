@@ -1,11 +1,13 @@
-
+*{
+	font-family: verdana
+}
 
 /*-- HEADER--*/
 .gentl{
 	margin:20px 100px;
 }
 
-li{
+.menu{
 	text-decoration: none;
 	display: inline-block;
 	color: white;
@@ -15,12 +17,71 @@ li{
 
 /*-- SECTION 1--*/
 .bckg-cont{
-	background-color: ;
+	background-color: gray;
+}
+.bckg-cont-white{
+	background-color: white
+}
+.img-1{
+	width: 95%;
+	margin:30px 0px 10px 20px;
+}
 
 .text-espacio{
 	margin: 10px 0px;
 }
+.justific{
+	text-align: justify;
+}
+.titulo{
+	font-size: 30px;
+	margin-top: 30px;
+}
 
+.button {
+	color:#fff;
+	text-align:center;
+	font-size: 15px;
+	display:inline-block;
+	border: none;
+	border-radius: 22px;
+	box-shadow:0px 3px 0px #373c3c;
+	cursor:pointer;	
+}
+.button-read{
+	background-color: #999999;
+	margin-top: 15px;
+	width:120px;
+	padding:10px 15px
+}
+/*-- SECTION 2--*/
+.margen-caja{
+	margin-left: 8px
+}
+.subt{
+	font-size: 25px;
+	margin-top: 35px;
+}
+.latest{
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	text-align:left;
+	margin: 20px 30px 30px 0px;
+}
+
+.button-load{
+	background-color:  #666666;
+	margin: 50px;
+	width:150px;
+	padding:10px 15px
+}
+.twitter{
+	width: 100%;
+}
+.columna10-text{
+	margin: 50px 0px;
+}
 /*--FOOTER-*/
 
 .background-gray{
@@ -29,4 +90,25 @@ li{
 
 .fondito{
 	background-color: black;
+}
+.botonredes{
+	width: 15%;
+	margin-left:5px;
+}
+.gris{
+	font-size: 20px;
+	margin: 20px;
+	color: #666666;
+
+}
+hr{
+	margin: 50px;
+}
+
+.barra{
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	margin: 2px;
 }
