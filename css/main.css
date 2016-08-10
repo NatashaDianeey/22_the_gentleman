@@ -17,7 +17,7 @@
 
 /*-- SECTION 1--*/
 .bckg-cont{
-	background-color: gray;
+	background-color: #333333;
 }
 .bckg-cont-white{
 	background-color: white
@@ -32,6 +32,12 @@
 }
 .justific{
 	text-align: justify;
+}
+.margen-botom{
+	margin: 25px 0px 90px 0px;
+}
+.margen-top{
+	margin-top: 50px
 }
 .titulo{
 	font-size: 30px;
@@ -55,12 +61,43 @@
 	padding:10px 15px
 }
 /*-- SECTION 2--*/
+
+.cuadroimg1{
+	margin:40px 10px ;
+	width: 30px;
+	height: 30px;
+}
+.cuadroimg2{
+	margin: 45px 15px;
+	width: 20px;
+	height: 20px;
+}
+.cuadroimg3{
+	margin:45px 15px;
+	width: 20px;
+	height: 20px;
+}
+
 .margen-caja{
 	margin-left: 8px
 }
 .subt{
 	font-size: 25px;
 	margin-top: 35px;
+}
+.icon-img-disp{
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	float: left;
+	margin-top: 16px;
+	margin-right: 5px;
+}
+.num-peque{
+	color: gray;
+	font-size: 10px;
+	margin-top: 18px;
+	margin-right:70px;
 }
 .latest{
 	color: black;
@@ -79,10 +116,27 @@
 .twitter{
 	width: 100%;
 }
+/*--seccion3--*/
+hr{
+	width: 1300px;
+}
+.follow-black{
+	background-color:  #666666;
+	color: white;
+	width:80px;
+	padding:4px 2px;
+	margin: 0px 0px 50px 40px;
+	border-radius:6px;
+}
+
 .columna10-text{
-	margin: 50px 0px;
+	margin: 60px 0px;
 }
 /*--FOOTER-*/
+
+.margen-caja-foot{
+	margin-left: 50px;
+}
 
 .background-gray{
 	background-color: black;
@@ -111,4 +165,8 @@ hr{
 	color: white;
 	text-align: center;
 	margin: 2px;
+}
+
+.number-pink{
+	color: #ff0066;
 }
